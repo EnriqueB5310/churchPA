@@ -1,19 +1,13 @@
 
 * {
-    margin: 0;
+   
     font-family:Poppins,sans-serif;
 }
 
-html, body {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100%;
+html,body{
+    overflow-x: clip;
 }
 
-.row {
-    padding-right: 0px;
-    margin-right: 0px;
-  }
 
 
 
