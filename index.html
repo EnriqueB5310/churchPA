@@ -9,7 +9,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
     <script defer  src="index.js"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -28,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Staff <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Schedual</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">Updates</a>
             </li>
           </ul>
         </div>
@@ -46,7 +48,8 @@
     <div id="hero" class="p-5 text-center " style="
     background-image: url('church.png') ;
     background-color: rgb(87, 85, 85); background-blend-mode: multiply;
-    height: 680px;
+    height: 650px;
+
     background-repeat: no-repeat; background-size: 100% 100% ;
   ">
 
@@ -54,8 +57,8 @@
   <div class="mask pt-4">
     <div class="d-flex justify-content-center align-items-center h-100">
       <div class="text-white">
-        <h1 class="mb-4">We Are Sunday People Renewed. Renewed In Christ, Gifted and Sent</h1>
-        <h4 class="mb-3">Site currently under development, some features Unavailble</h4>
+        <h1 class="mb-4 text-wrap fw-bold">We Are Sunday People Renewed. Renewed In Christ, Gifted and Sent</h1>
+        <h4 class="mb-3 text-wrap">Site currently under development, some features Unavailble</h4>
         
       </div>
     </div>
@@ -65,7 +68,7 @@
 
 </div>
 
-<section id="resources">
+
 <!--Resources------------------------------------------------------------------------------------->
     <div class="container-fluid text-center text-white">
         <div class="row">
@@ -92,12 +95,12 @@
 
     
       </div>
-</section>
+
       <!---------------------------------------------------------------------------------------------->
 
 
       <!-------UPDATES---------------------------------------------------------------------------->
-      <section id="updates">
+   
       <div class="container text-center  mb-4" style="margin-top: 6rem;">
           <div class="row">
         
@@ -116,7 +119,7 @@
           </div>
 
       </div>
-</section>
+
 <!--------------------------------------------------------------------------------------------------------------->
 
 
@@ -146,26 +149,26 @@
       </div>
 
 
-<div class="container-fluid" style="background-color: rgb(240, 240, 240);">
+<div class="container-fluid px-0 ">
 
-<div class="row">
+<div class="row g-0">
   <div class="col-sm">
-    <img src="palm.jpg" class="img-fluid" style="width:100%" >
+    <img src="palm.jpg" class="img-fluid" style="width:100%; height:100%; margin-left: 0" >
   </div>
   <!--DROPDOWN MENU WITH EVENT TIMES-->
-<div class="col-sm">
+<div class="col-sm mr-0">
   <div id="accordion ">
     <div class="card">
       <div class="card-header text-decoration-none" id="headingOne">
         <h5 class="mb-0">
-          <button class="btn btn-link text-black text-decoration-none" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-           <h3 class="text-decoration-none">Daily Mass Times</h3> 
+          <button class="btn btn-link text-black text-decoration-none" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" disabled>
+           <h3 class="text-decoration-none text-black" style="color: black;">Daily Mass Times</h3> 
           </button>
         </h5>
       </div>
   
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="card-body text-white" style="background-color: #5274dc;">
+        <div class="card-body">
           <p>Monday: 12:10PM</p>
           <p>Tuesday-Friday: 8:00 AM</p>
           <p>Friday Adoration 8:30-7pm</p>
@@ -177,13 +180,13 @@
     <div class="card">
       <div class="card-header" id="headingTwo">
         <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-           <h3>Weekend Mass Times</h3>
+          <button class="btn btn-link collapsed text-decoration-none" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" disabled>
+           <h3 style="color: black;">Weekend Mass Times</h3>
           </button>
         </h5>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body  text-white" style="background-color: #5274dc;">
+      <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body" >
     <p>Saturday: 5:00PM -Livestreamed on Facebook and Youtube- </p> 
     <p>Winter Hours @4:00PM</p>
     <p>Sunday 8:00AM</p>     
@@ -196,13 +199,13 @@
     <div class="card">
       <div class="card-header" id="headingThree">
         <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-           <h3>Confession Times</h3>
+          <button class="btn btn-link collapsed text-decoration-none" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" disabled>
+           <h3 style="color: black;">Confession Times</h3>
           </button>
         </h5>
       </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body text-white" style="background-color: #5274dc;">
+      <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body " >
 
       <p>Monday: 6:30-7:00pm</p>
      <p> Saturday: 3:30-4:30pm</p>
@@ -220,6 +223,48 @@
 
 
 </div>
+
+
+
+
+
+
+<div class="container-fluid px-0 text-center text-white" style=" background-color: rgb(75, 137, 181);">
+
+<div class="row">
+<div class="col-sm ">
+  <h1 class="fw-bold ">Resources</h1>
+  <div class="d-grid gap-2">
+    <button type="button" class="btn btn-outline-info text-light">Funeral Guide</button>
+    <button type="button" class="btn btn-outline-info text-light">RCIA Guide</button>
+    <button type="button" class="btn btn-outline-info text-light">Baptism Guide</button>
+    <button type="button" class="btn btn-outline-info text-light">Wedding Planning Guide</button>
+    <button type="button" class="btn btn-outline-info text-light">Parish Bulletin</button>
+    <button type="button" class="btn btn-outline-info text-light">Flea Market Vendor Application</button>
+    <button type="button" class="btn btn-outline-info text-light">Religious ED Registration</button>
+    <button type="button" class="btn btn-outline-info text-light">VBS Registration</button>
+    <button type="button" class="btn btn-outline-info text-light">USCCB</button>
+    <button type="button" class="btn btn-outline-info text-light">Notre Dame School System</button>
+    <button type="button" class="btn btn-outline-info text-light">Knights of Columbus</button>
+    
+  
+  
+  
+  </div>
+</div>
+<div class="col-sm">
+  <img src="church2.jpg" class="img-fluid half-page-banner w-100" style="width:100%; height:560px;">
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
 
 
 <!---FOOTER-->
@@ -315,6 +360,7 @@
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48240.47131220278!2d-75.423999!3d40.9151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c45ea8b68e21af%3A0x391411811ae3003f!2sOur%20Lady%20Queen%20of%20Peace!5e0!3m2!1sen!2sus!4v1714858874383!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   </div>
   <!-- Copyright -->
