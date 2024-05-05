@@ -10,7 +10,29 @@ html,body{
 }
 
 
+#r1 :hover {
+    font-weight: bold;
+    transition: 20ms;
+    text-decoration: underline;
+}
 
+#r2 :hover {
+    font-weight: bold;
+    transition: 20ms;
+    text-decoration: underline;
+}
+
+#r3 :hover {
+    font-weight: bold;
+    transition: 20ms;
+    text-decoration: underline;
+}
+
+#r4 :hover {
+    font-weight: bold;
+    transition: 20ms;
+    text-decoration: underline;
+}
 
 
 
