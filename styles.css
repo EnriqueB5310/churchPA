@@ -1,12 +1,13 @@
 
 * {
    
-    font-family:Poppins,sans-serif;
+    
     overflow-x: clip;
 }
 
-html,body{
+body{
     overflow-x: clip;
+    font-family: Poppins,sans-serif;
 }
 
 
@@ -32,6 +33,15 @@ html,body{
     font-weight: bold;
     transition: 20ms;
     text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'magnolia';
+    src: url('Magnolia_Script.otf') format('opentype');
+}
+
+#mission {
+    font-family: 'magnolia',sans-serif;
 }
 
 
